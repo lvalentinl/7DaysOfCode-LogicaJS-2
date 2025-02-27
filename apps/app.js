@@ -13,6 +13,7 @@ function asignarTextoHTML(idEtiqueta, texto){
 function condicionesIniciales(){
     asignarTextoHTML('id_h1_titulo', 'Reto del día 2');
     asignarTextoHTML('id_h2_preguntas', '¿Cuál es tu nombre?');
+    asignarTextoHTML('id_p_respuesta', '');
     numeroDePregunta = 1;
     document.getElementById('id_btn_responder').removeAttribute('disabled');
 }
